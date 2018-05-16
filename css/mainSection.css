@@ -1,0 +1,33 @@
+.productImage {
+  width: 50%;
+}
+.affilAds {
+  border: 3px solid green;
+  padding: 3%;
+  margin: 0 1%;
+  display: inline-block;
+  border-radius: 2%;
+  opacity: 1.0;
+
+}
+#featuredShoppingWrap {
+  opacity: 1.0;
+  position: relative;
+  z-index: 2;
+  padding: 5% 0;
+}
+#mainSectionContainer {
+  border: 1px solid black;
+}
+#featuredItemSection {
+  border: 1px solid black;
+}
+#featuredJobSection {
+  border: 1px solid black;
+}
+#featuredTravelSection {
+    border: 1px solid black;
+}
+#shoppingPageWrap {
+  border: 1px solid black;
+}

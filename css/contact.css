@@ -1,0 +1,55 @@
+#contactContainer {
+  background-color: #222222;
+  background-image: url("../uploads/img/mapImage1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+#contactTitle {
+  margin: 75px 0 0 0;
+  font-size: 400%;
+  color: white;
+}
+#contactForm {
+  padding: 100px;
+}
+#name {
+
+}
+#email {
+
+}
+#phone {
+
+}
+#message {
+
+}
+#sendMessageButton {
+
+}
+@media screen and (max-width:675px) {
+  #contactTitle {
+    position: relative;
+    top: 50px;
+    font-size: 275%;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  #contactTitle {
+    position: relative;
+    top: 50px;
+    font-size: 225%;
+    color: white;
+  }
+  #contactContainer {
+    background-image: url("../uploads/img/mapImage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}

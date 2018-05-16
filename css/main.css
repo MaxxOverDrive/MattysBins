@@ -1,0 +1,79 @@
+.dropdownListItem {
+  width: 100%;
+  font-size: 125%;
+  font-weight: 800;
+}
+.category_results {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+.category_image {
+
+}
+.category_name {
+}
+#mainLogo {
+  width: 125%;
+}
+#logoGreenRed {
+  position: relative;
+  bottom: 75vh;
+}
+#logoRed2Black {
+  position: relative;
+  bottom: 60vh;
+  right: 30vw;
+}
+#logoBlueRedBlack {
+  position: relative;
+  bottom: 50vh;
+  right: 5vh;
+}
+#logoBlackRed {
+  position: relative;
+  bottom: 55vh;
+}
+#mainNavBar {
+  float: right;
+}
+#topRightAd {
+  position: relative;
+  bottom: 2vh;
+  width: 100%;
+
+}
+#adsSection {
+  border: 1px solid black;
+  padding: 2%;
+}
+
+@media screen and (max-width:1300px) {
+  #navItems {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  body {
+    font-size: 60%;
+  }
+  #mainNavBar {
+
+  }
+}
+
+@media screen and (max-width:600px) {
+  body {
+
+  }
+  .dropdown-menu {
+    color: black;
+  }
+  #mainLogo {
+
+  }
+  #name, #email, #phone, #message {
+    min-width: 125px;
+  }
+}
